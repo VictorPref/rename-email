@@ -1,1 +1,1 @@
-pyinstaller --onefile formattage-email.py
+pyinstaller --onefile app/formattage-email.py

@@ -34,7 +34,8 @@ def rename_msg_files(path):
     print(f"Timer: {elapsed_time} seconds")
 
 
-if len(sys.argv) > 1 :
+#if len(sys.argv) > 1 :
+if true :
     path = sys.argv[1]
     path_setting = path+'\setting.txt'
     path = path+"\email"
