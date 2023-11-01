@@ -13,6 +13,8 @@ def load_filter():
             key, value = line.strip().split(';')
             filter[key] = value
 
+
+
 def rename_msg_files(path):
     threads = []
     lock = threading.Lock()
@@ -34,8 +36,7 @@ def rename_msg_files(path):
     print(f"Timer: {elapsed_time} seconds")
 
 
-#if len(sys.argv) > 1 :
-if true :
+if len(sys.argv) > 1 :
     path = sys.argv[1]
     path_setting = path+'\setting.txt'
     path = path+"\email"
