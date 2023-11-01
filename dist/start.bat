@@ -1,2 +1,2 @@
-formattage-email.exe C:\Users\prefo\Desktop\Test-email\rename-email
+formattage-email.exe C:\Path before /email folder
 
